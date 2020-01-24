@@ -20,7 +20,7 @@ class Metods {
                     System.out.print(word + ",");
                 }
             }
-            System.out.println("\b");
+            System.out.print("\b \n");
         }
     }
 
