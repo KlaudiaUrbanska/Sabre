@@ -6,9 +6,9 @@ public class Program {
 
     public static void main(String[] args) {
 
-        //String string = "ala ma kota, kot koduje w Javie Kota";
-        Scanner scanner=new Scanner(System.in);
-        String string = scanner.nextLine();
+        String string = "ala ma kota, kot koduje w Javie Kota";
+        //Scanner scanner=new Scanner(System.in);
+       // String string = scanner.nextLine();
         String stringLow = string.toLowerCase();
         LinkedList<Character> characters = new LinkedList<>();
         String[] seperatWords = stringLow.split("[, .!?]");
